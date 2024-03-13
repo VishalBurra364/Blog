@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 .profile{
     flex-basis: 30%;
     margin-top: 50px;
-    margin-left: 90px;
+    margin-left: 220px;
 }
 .profile img{
     border-radius: 10px;
