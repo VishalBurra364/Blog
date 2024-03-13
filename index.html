@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f494d04f55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1></h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#"></a></li> -->
+                    <li><a href="#contact">Contact</a></li>  
+                </ul>
+            </nav>
+            <div class="pro">
+               <div class="header-text">
+                <p>Backend Developer</p>
+                <h1>Hi, I'm <span>Vishal</span> <br>from Hyderabad</h1>
+               </div>
+               <div class="profile">
+                <img src="profile1.jpg" alt="">
+               </div>
+            </div>
+    </div>
+    <!-- -----------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about1.jpg" alt="about">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> &nbsp; &nbsp;  I am Vishal from hyderabad, i have done my schooling in Indian Public School, warangal and i have completed my intermediate in Narayana Junior College, Hyderabad. Currently iam pursuing my 3rd of engineering in the department of AIML in Mallareddy College.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experirece')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ol >
+                            <li>Web Development:
+                                <p class="item1">Web development involves the building and maintenance of websites. The web development process can include web design, web content development, network security, coding and more.</p>
+                            </li>
+                            <li>Java:
+                                <p class="item1">
+                                    Java is a high level, robust, object-oriented and secure programming language.
+                                    Java was developed by James Gosling at Sun Microsystems in the year 1995.
+                                </p>
+                            </li>
+                            <li>Python:
+                                <p class="item1">
+                                    Python is a widely used general-purpose, high level programming language.
+                                     It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="tab-contents" id="experirece">
+                        <ul>
+                            <li>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Indian Public School, Warangal  (SSC)</li>
+                            <li>Narayana Junior College, Hyderabad  (Inter)</li>
+                            <li>Mallareddy College Of Engineering and Technology, Hyderabad  (BTech)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services--------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i <i class="fa-solid fa-paragraph"></i>></i>
+                    <h2>Sentence Completion</h2>
+                    <p>By using the NLP, and Machine Learning algorithms like n-gram we can be able to predict the next word of a sentence, it will provide next word as a suggestion</p>
+                    <a href="pro1.html" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i <i class="fa-solid fa-business-time"></i>></i>
+                    <h2>Sales Prediction</h2>
+                    <p>Predicting the sales of any product in the future is a good business strategy, by using the Machine Learning algorithms like Linear Regression, Random Forest we can be able to predict the future sales</p>
+                    <a href="pro2.html">Learn more</a>
+                </div>
+                <div>
+                    <i  class="fa-solid fa-cloud"></i>
+                    <h2>Weather Forecasting</h2>
+                    <p>By using the WeatherAPI we can be able to retrieve the weather information of a particular region using python</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Contact-------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vishalburra14@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>738683843843</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/vishal_burra?igsh=b3JvMmE5NWI1a3c0" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/VishalBurra?t=1E4h8P3T8k2fTaubjmbrIg&s=09" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn1">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
